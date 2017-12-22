@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+	<!-- INCLUDED FILES FOR BOOTSTRAP AND JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+     			</button>
+				
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="#">DRUGS</a></li>
+				<li><a href="#">PHARMACY</a></li>
+				<li><a href="#">UPDATE</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">FAQ</a></li>
+				<li><a href="Login.html">LOGIN</a></li>
+				<li><a href="signup.html">SIGNUP</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+
+	<!-- FORMS -->
+	<div class="container" id="form">
+		<h1 id="signhead" align="center">SIGN UP</h1>
+		<form>
+			<div class="form-group">
+			    <label for="license">License number:</label>
+			    <input type="text" class="form-control" id="license" placeholder="Eg: 111616104008" required>
+			</div>
+			<div class="form-group">
+			    <label for="PharmacyName">Pharmacy Name:</label>
+			    <input type="text" class="form-control" id="PharmacyName" placeholder="Eg: Williams Pharmacy" required>
+			</div>
+
+			<div class="form-group left">
+			    <label for="password">Password:</label>
+			    <input type="password" class="form-control" id="password" placeholder="">
+			</div>
+			<div class="form-group left">
+			    <label for="repeatpassword">Repeat Password:</label>
+			    <input type="password" class="form-control" id="repeatpassword" placeholder="">
+			</div>
+			<div class="clear">&nbsp;</div>
+			<div class="form-group">
+			    <label for="address">Address:</label>
+			    <input type="text" class="form-control" id="address" placeholder="Eg: #33, Mookathal St, Perumalpet, Purasaiwakkam, Chennai, Tamil Nadu 600007" required>
+			</div>
+			<div class="form-group left">
+			    <label for="area">Area:</label>
+			    <input type="text" class="form-control" id="Area" placeholder="Perambur" required>
+		    </div>
+		    <div class="form-group left">
+			    <label for="Pincode">Pincode:</label>
+			    <input type="text" class="form-control" id="Pincode" placeholder="600XXX" required>
+		    </div>
+		    <div class="clear">&nbsp;</div>
+		    <div class="form-group left">
+			    <label for="District">District:</label>
+			    <input type="text" class="form-control" id="District" placeholder="Eg: Chennai" required>
+			</div>
+			<div class="form-group left">
+			    <label for="State">State:</label>
+			    <input type="text" class="form-control" id="State" placeholder="Eg: Tamil Nadu" required>
+			</div>
+			<div class="clear">&nbsp;</div>
+			<div class="form-group">
+			    <label for="NameOwner">Owner's Name:</label>
+			    <input type="text" class="form-control" id="NameOwner" placeholder="Eg: Rumi Carter" required>
+			</div>
+			<div class="form-group">
+			    <label for="Aadhar">Aadhar card number:</label>
+			    <input type="text" class="form-control" id="Aadhar" placeholder="" required>
+			</div>
+			<div class="form-group left">
+    			<label for="email">Email address:</label>
+    			<input type="email" class="form-control" id="email" placeholder="Eg: qwerty@xyz.com">
+  			</div>
+			<div class="form-group left">
+			    <label for="number">Contact Number:</label>
+			    <input type="text" class="form-control" id="number" placeholder="1234567890" required>
+			</div>
+			<div class="clear">&nbsp;</div>
+
+			<button type="submit" class="btn btn-info center" align="center">Submit</button>
+		</form>
+	</div>
+
+	<!-- FOOTER -->
+	
+		<div class="footer">
+		  		<a href="#"> Feedback </a> | <a href="#"> About </a> | <a href="#">Contact Us</a> | Copyright © 2017 - www.mhf.co.in. All Rights Reserved
+			</div>
+	  	</div>
+
+</body>
+</html>
