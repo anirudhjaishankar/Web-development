@@ -1,0 +1,82 @@
+#A{
+	font-family:Barlow Condensed;
+	font-weight:600;
+	font-size: 125%;
+	padding-top:20px; 
+	padding-bottom:5px;
+	margin-bottom:5px; 
+	color:darkred;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+p{
+	font-size:1.3em;
+}
+
+body{
+	width:85%;
+	background-image: url("im1.jpg");
+    min-height: 500px;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+div{
+	padding:3%;
+	margin-left: 20%;
+	background-color: rgba(222,184,135,0.8);
+	margin-top:3%;
+
+}
+
+h1{
+	font-family:Vidaloka;
+	color: #ccba92;
+	font-size: 350%;
+	text-align:center;
+}
+label{
+	font-family:Hind Vadodara;
+	font-size:2em;
+	margin-left:2%;
+}
+.star {
+  font-size:5em;  
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.star  span {
+  display: inline-block;
+  
+  width: 1.1em;
+}
+.star  span:hover,
+.star  span:hover ~ span {
+  color: transparent;
+}
+.star  span:hover:before,
+.star  span:hover ~ span:before {
+   content: "\2605";
+   color: gold;
+}
+
+div #Load1{
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
